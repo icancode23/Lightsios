@@ -15,6 +15,8 @@
 		CFDC97531DABF63800E3465E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDC97511DABF63800E3465E /* LaunchScreen.storyboard */; };
 		CFDC975E1DABF63800E3465E /* lightsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDC975D1DABF63800E3465E /* lightsTests.m */; };
 		CFDC97691DABF63800E3465E /* lightsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDC97681DABF63800E3465E /* lightsUITests.m */; };
+		CFDC97761DABF87B00E3465E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDC974C1DABF63800E3465E /* Main.storyboard */; };
+		CFDC97771DABF87C00E3465E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDC974C1DABF63800E3465E /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -202,11 +204,12 @@
 		CFDC97381DABF63800E3465E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "nipun arora";
 				TargetAttributes = {
 					CFDC973F1DABF63800E3465E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 94RX7M64J4;
 					};
 					CFDC97581DABF63800E3465E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -253,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDC97771DABF87C00E3465E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDC97761DABF87B00E3465E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,8 +346,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -386,8 +393,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -415,9 +424,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94RX7M64J4;
 				INFOPLIST_FILE = lights/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Codefactory.lights;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Codefactory.lights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -426,9 +436,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 94RX7M64J4;
 				INFOPLIST_FILE = lights/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = Codefactory.lights;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Codefactory.lights;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -498,6 +509,7 @@
 				CFDC976F1DABF63800E3465E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFDC97701DABF63800E3465E /* Build configuration list for PBXNativeTarget "lightsTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +518,7 @@
 				CFDC97721DABF63800E3465E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFDC97731DABF63800E3465E /* Build configuration list for PBXNativeTarget "lightsUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +527,7 @@
 				CFDC97751DABF63800E3465E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
