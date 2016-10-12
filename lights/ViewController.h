@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextView *textview;
+@property (strong, nonatomic) IBOutlet UISwitch *switch1;
 
 @end
 
